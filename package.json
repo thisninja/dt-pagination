@@ -1,30 +1,27 @@
 {
-    "name": "vuejs-uib-pagination",
+    "name": "dt-vue-pagination",
     "version": "1.0.4",
-    "description": "Best and complete pagination plugin for Vue.js. Inspired in Angular Bootstrap Pagination.",
-    "main": "dist/vuejs-uib-pagination.js",
+    "description": "Customized fork of vuejs-dt-pagination that allows pass custom href's to paginator pages",
+    "main": "dist/vuejs-dt-pagination.js",
     "scripts": {
         "start": "hs -p 6592 -a localhost -c-1 -o",
-        
         "build:js": "webpack --config webpack.dev.js",
         "build:js:w": "webpack --config webpack.dev.js -w",
-        
         "build:demo:js": "cd demo && webpack",
         "build:demo:js:w": "cd demo && webpack -w",
-        
         "build:js:p": "webpack --config webpack.prod.js",
         "build:js:p:w": "webpack --config webpack.prod.js -w"
     },
     "keywords": [
         "paginator",
         "pagination",
-        "uib-pagination",
+        "dt-vue-pagination",
         "vuejs pagination",
         "vuejs paginator"
     ],
     "author": {
-        "name": "Santiago Aguilar Hernández",
-        "email": "santiago777@outlook.com"
+        "name": "Dmitry Shevchenko",
+        "email": "myzenfeed@gmail.com"
     },
     "license": "MIT",
     "dependencies": {},
@@ -41,10 +38,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/sant123/vuejs-uib-pagination.git"
+        "url": "git+https://github.com/thisninja/dt-pagination.git"
     },
     "bugs": {
-        "url": "https://github.com/sant123/vuejs-uib-pagination/issues"
+        "url": "https://github.com/thisninja/dt-pagination/issues"
     },
-    "homepage": "https://github.com/sant123/vuejs-uib-pagination#readme"
+    "homepage": "https://github.com/thisninja/dt-pagination#readme"
 }
