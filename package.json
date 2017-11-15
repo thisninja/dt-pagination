@@ -1,8 +1,8 @@
 {
     "name": "dt-vue-pagination",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Customized fork of vuejs-dt-pagination that allows pass custom href's to paginator pages",
-    "main": "dist/vuejs-dt-pagination.js",
+    "main": "dist/vuejs-uib-pagination.js",
     "scripts": {
         "start": "hs -p 6592 -a localhost -c-1 -o",
         "build:js": "webpack --config webpack.dev.js",
