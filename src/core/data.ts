@@ -5,7 +5,7 @@ export default function (this: uibPaginationData) {
     let currentPage = v.isDefined(this.value.currentPage) ? this.value.currentPage : 1;
     let data = {
         currentPage,
-        href: location.href
+        base: location.origin + location.pathname
     };
 
     return data;
