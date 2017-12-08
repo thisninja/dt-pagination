@@ -3,7 +3,7 @@
         <a :href="base" @click="selectPage(1, $event)" :disabled="isNoPreviousOrDisabled" v-uib-tabindex-toggle="isNoPreviousOrDisabled">{{ getText('first') }}</a>
     </li>
     <li role="menuitem" v-if="directionLinks" :class="{ disabled: isNoPreviousOrDisabled }" class="pagination-prev">
-        <a :href="currentPage > 1 ? `${base}?page=${currentPage - 1}` : base" @click="selectPage(currentPage - 1, $event)" :disabled="isNoPreviousOrDisabled" v-uib-tabindex-toggle="isNoPreviousOrDisabled">{{ getText('previous') }}</a>
+        <a :href="currentPage > 2 ? `${base}?page=${currentPage - 1}` : base" @click="selectPage(currentPage - 1, $event)" :disabled="isNoPreviousOrDisabled" v-uib-tabindex-toggle="isNoPreviousOrDisabled">{{ getText('previous') }}</a>
     </li>
     <li role="menuitem" v-for="(page, index) in pages" :key="index" :class="{ active: page.active, disabled: disabled && !page.active }"
         class="pagination-page">
